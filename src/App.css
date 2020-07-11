@@ -1,0 +1,91 @@
+.form {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+.feedback{
+  background-image: url("./images/dish.jpeg");
+  width: 100% !important;
+  height: 100% !important;
+  background-size:cover;
+  /* background-position:top;
+  background: cover; */
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+
+.feedback-card{
+  background: white;
+  width: 50%;
+  margin: 1rem;
+  border-radius: 10px;
+
+}
+
+.field{
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-label{
+  font-weight: 500;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-options{
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-field{
+  box-sizing: border-box;
+}
+
+.textarea {
+  padding:15px;
+  border-radius:15px;
+}
+
+.formError{
+  font-size: 14px;
+  color: red;
+}
+
+.label-error {
+  font-size: 12px;
+  color: red;
+}
+
+
+
+.loginemail {
+  padding:10px;
+  border-radius:10px;
+}
+
+.loginpassword {
+  padding:10px;
+  border-radius:10px;
+  margin-top: 15px;
+}
+
+.loginsubmit {
+  padding:10px;
+  border-radius:10px;
+  margin-top: 15px;
+}
+
+.loginform{
+  background-image: url('./images/BlackBackground.png');
+  background-size:cover;
+  padding: 175px 450px;
+}
+
+.invalid {
+  font-size: 14px;
+  color: white;
+}
