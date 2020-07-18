@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Button, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+// import Button from "../components/Button";
 import "../App.css";
 
 export default function LoginForm() {
@@ -17,7 +18,6 @@ export default function LoginForm() {
   function handleSubmit(event) {
     event.preventDefault();
   }
-  
 
   return (
     <div className="login">
@@ -42,9 +42,13 @@ export default function LoginForm() {
           />
         </Form.Group>
 
-        <Button className="loginsubmit" disabled={!validate()} type="submit">
-          Submit
-        </Button>
+        {/* <Button
+          className="loginsubmit"
+          
+          type="submit"
+        ></Button>
+
+        <Button>Submit</Button> */}
       </Form>
     </div>
   );
