@@ -154,14 +154,14 @@ button{
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid red;
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
 }
 
 button:hover{
-  background-color: black;
+  background-color: rgb(139, 35, 35);
   color: white;
   transition: 0.5s;
 }

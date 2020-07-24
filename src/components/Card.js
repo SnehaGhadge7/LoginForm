@@ -2,10 +2,10 @@ import React from "react";
 import "../App.css";
 
 function Card(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <>
-      <div className="cards">
+      <div className="cards"> 
         <div className="card">
           <img src={props.imgsrc} alt=" " />
         </div>

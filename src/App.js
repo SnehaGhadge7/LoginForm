@@ -1,35 +1,38 @@
-import React from "react";
+ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LoginForm from "./app/LoginForm";
 import Card from "./components/Card";
+import CardData from "./components/CardData"
+
+console.log(CardData[2].name);
 
 function App() {
   return (
     <>
       <div className="main">
         <Card
-          imgsrc="https://wallpapercave.com/wp/wc1813154.jpg"
-          title="Appetizers"
-          name="Pizza"
-          link="https://www.simplyrecipes.com/recipes/homemade_pizza/"
+          imgsrc={CardData[0].imgsrc}
+          title={CardData[0].title}
+          name={CardData[0].name}
+          link={CardData[0].link}
         />
         <Card
-          imgsrc="https://wallpapercave.com/wp/wp3151338.jpg"
-          title="Appetizers"
-          name="Burger"
-          link="https://www.indianhealthyrecipes.com/veg-burger-recipe-veggie-burger-recipe/"
+          imgsrc={CardData[1].imgsrc}
+          title={CardData[1].title}
+          name={CardData[1].name}
+          link={CardData[1].link}
         />
         <Card
-          imgsrc="https://wallpapercave.com/wp/wp4392659.jpg"
-          title="Appetizers"
-          name="French Fries"
-          link="https://thecozycook.com/homemade-french-fries/"
+          imgsrc={CardData[2].imgsrc}
+          title={CardData[2].title}
+          name={CardData[2].name}
+          link={CardData[2].link}
         />
-        <Card
-          imgsrc="https://wallpapercave.com/wp/wp4914630.jpg"
-          title="Appetizers"
-          name="Manchurian"
-          link="https://www.vegrecipesofindia.com/veg-manchurian-veg-manchurian-gravy/"
+       <Card
+          imgsrc={CardData[3].imgsrc}
+          title={CardData[3].title}
+          name={CardData[3].name}
+          link={CardData[3].link}
         />
       </div>
     </>
